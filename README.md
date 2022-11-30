@@ -1,6 +1,6 @@
 # nginx_start
 erste Schritte mit nginx auf einem Ubuntu Server
-**KISS-Prinzip (englisch Keep it simple and stupid)**
+>KISS-Prinzip (englisch Keep it simple and stupid)**
 >ein Grundsatz, den ich verfolge: eine einzige Anwendung auf einem Server in einer VM (virtuellen Maschine)
 ## Grundsätzliches
 ### nginx Dateien und Verzeichnisse
