@@ -22,7 +22,11 @@ Das Verzeichnis /etc/nginx/conf.d/ enthält die Standardkonfigurationsdatei des 
   Das stop-Signal beendet den NGINX-Prozess sofort. Das quit-Signal stoppt den NGINX-Prozess, nachdem er die Verarbeitung laufender Anfragen beendet hat. Das reload-Signal lädt die Konfiguration neu. Das reopen-Signal weist NGINX an, die Logdateien erneut zu öffnen.  
 ## Installations- und Konfigurationsbeispiel mit rtmp-Modul und PHP
 ```
+# NGINX:
 sudo apt install nginx
+# Das RTMP-Modul wird für den Einsatz als Streaming-Server benötigt:
 sudo apt install libnginx-mod-rtmp
+# PHP wird für dynamische Webseiteninhalte benötigt:
 sudo apt install php-fpm
 ```
+Ohne an der Konfiguration etwas verändern zu müssen, funktioniert jetzt bereits der Webserver. Die statischen Inhalte befinden sich im Verzeichnis `/var/www/html`.
