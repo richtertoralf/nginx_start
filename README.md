@@ -19,7 +19,7 @@ Das Verzeichnis /etc/nginx/conf.d/ enthält die Standardkonfigurationsdatei des 
 - nginx -t -> testet die NGINX Konfiguration und zeigt eventuelle Fehler an
 - nginx -T -> testet die NGINX Konfiguration und zeigt die überprüfte Konfiguration an
 - nginx -s signal (stop, quit, reload, reopen)  
-  Das quit-Signal stoppt den NGINX-Prozess, nachdem er die Verarbeitung laufender Anfragen beendet hat. Das reload-Signal lädt die Konfiguration neu. Das reopen-Signal weist NGINX an, die Logdateien erneut zu öffnen.  
+  Das stop-Signal beendet den NGINX-Prozess sofort. Das quit-Signal stoppt den NGINX-Prozess, nachdem er die Verarbeitung laufender Anfragen beendet hat. Das reload-Signal lädt die Konfiguration neu. Das reopen-Signal weist NGINX an, die Logdateien erneut zu öffnen.  
 ## Installations- und Konfigurationsbeispiel mit rtmp-Modul und PHP
 ```
 sudo apt install nginx
