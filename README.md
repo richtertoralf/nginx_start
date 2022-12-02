@@ -30,3 +30,8 @@ sudo apt install libnginx-mod-rtmp
 sudo apt install php-fpm
 ```
 Ohne an der Konfiguration etwas verändern zu müssen, funktioniert jetzt bereits der Webserver. Die statischen Inhalte befinden sich im Verzeichnis `/var/www/html`.
+### PHP aktivieren
+#### IP-Adresse und CPU-Auslastung des Servers anzeigen
+### Streamingserver konfigurieren
+### etwas JavaScript und CSS einfügen
+## Installation mit Ansible
