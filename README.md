@@ -34,4 +34,7 @@ Ohne an der Konfiguration etwas verändern zu müssen, funktioniert jetzt bereit
 #### IP-Adresse und CPU-Auslastung des Servers anzeigen
 ### Streamingserver konfigurieren
 ### etwas JavaScript und CSS einfügen
+## NGINX als Proxy-Server / Load-Balancer
 ## Installation mit Ansible
+### Streamingserver
+### Loadbalancer
